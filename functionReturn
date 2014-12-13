@@ -1,0 +1,25 @@
+<?php
+// function return
+
+function add_years($age, $addYears){
+    $age += $addYears;
+    return $age;   
+}
+
+$neil = add_years(30, 6);
+$cj = add_years(30, 4);
+$zac = add_years (1, 5);
+
+?>
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h1><?php echo $neil ?></h1>
+        <h1><?php echo $cj ?></h1>
+        <h1><?php echo $zac ?></h1>
+    </body>
+    
+</html>
