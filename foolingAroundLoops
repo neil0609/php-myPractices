@@ -1,0 +1,58 @@
+<?php
+
+$membersOfTeamNeil = [
+        "Neil" => [
+            "password" => "Zacaroo",
+            "name" => "Neil",
+            "age" => 36,
+            "job" => "Dad",
+            "fav_food" => [
+                "food1" => "Crispy Pata",
+                "food2" => "Fried Chicken",
+                "food3" => "Lechon"
+            ],
+        ],
+        "CJ" => [
+            "password" => "Zacadoodledoo",
+            "name" => "CJ",
+            "age" => 34,
+            "job" => "Mom",
+            "fav_food" => [
+                "food1" => "Sinigang",
+                "food2" => "Pho",
+                "food3" => "Anything with Soup"
+                
+            ],
+        ],
+        "Zac" => [
+            "password" => "weeeeelllll",
+            "name" => "ZAC",
+            "age" => 4,
+            "job" => "play a lot",
+            "fav_food" => [
+                "food1" => "Pizza",
+                "food2" => "Burger",
+                "food3" => "Chicken, Rice & Mac and Cheese",
+                "food4" => "Anything with Soup"
+            ]
+            
+        ]
+    ];
+    
+  foreach ($membersOfTeamNeil as $_key => $_value ){
+            echo $_key . ": ";
+            echo '<br />';
+            
+            foreach ($_value as $__key => $__value){
+                echo $__key . ": ";
+                echo $__value . '<br />';
+                }    
+           }
+                  
+            
+            
+            echo '<br />';
+ 
+   
+        
+    
