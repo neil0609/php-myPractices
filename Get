@@ -1,0 +1,15 @@
+<?php
+//GET
+
+/* urlencode
+ * urldecode
+ */
+
+echo '<a href="?name=benny&job=none&favorite=dog&hobbies=driving%20sports%20cars">Benny!</a>';
+
+
+
+print_r($_GET);
+
+
+//GET PASSES PARAMETERS THROUGH THE URL
