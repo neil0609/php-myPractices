@@ -1,0 +1,61 @@
+<?php
+//if
+
+$foo = 25;
+$bar = 30;
+
+//if //(//condition){
+        //statement//
+        //};
+    //else //{//
+    
+    //};//
+    //}//
+
+if ($foo > $bar){
+    echo "It is Less!";
+}
+else {
+    echo "It is More!";
+}
+
+'<br /';
+
+$foo1 = 30;
+$bar1 = "30";
+
+if ($foo1 == $bar1){
+    echo "Match!";
+}
+else {
+    echo "Nope";
+}
+'<br />';
+
+if ($foo1 === $bar1){
+    echo "Match!";
+}
+else {
+    echo "Nope";
+}
+'<br />';
+
+$foo2 = 20;
+$bar2 = 30;
+
+if($foo2 == $bar2 ){
+    echo "Match!!!";
+}
+else if ($foo2 < $bar2) {
+    echo "Less!";
+}
+else {
+    echo "More!";
+}
+
+'<br />';
+
+'<hr />';
+
+// Ternary
+echo ($foo == $bar) ? 'True' : 'False'; 
