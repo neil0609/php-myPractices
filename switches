@@ -1,0 +1,41 @@
+<?php
+// switch
+
+
+$age = 50;
+
+switch ($age){
+    case 25:
+        echo "You are Young!";
+        break;
+    
+    case 20:
+        echo "You are Mature";
+        break;
+    
+    case 50:
+        echo "You are wise";
+        break;
+  
+    default:
+        echo "I don't knw what you are";
+        break;
+}
+
+
+"<hr />";
+
+/*
+switch ($age){ //you can use multiple cases//
+    case 25:
+    case 20:
+    case 50:
+        echo "You are wise";
+        break;
+  
+    default:
+        echo "I don't knw what you are";
+        break;
+}
+/*
+
