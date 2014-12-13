@@ -1,0 +1,32 @@
+<?php
+
+//POST
+
+/*echo $_POST['job'];
+
+?>
+
+
+<form method="post" action="?">
+    Job: <input type="text" name="job" />
+    <input type="submit" />
+</form>
+*/
+
+/*if (isset($_GET['handle_form'])){
+    echo $_POST['job'];
+    
+}
+*/
+
+if (!empty($_POST)) {
+    echo $_POST['job'];
+}
+
+
+?>
+
+<form method="post" action="?handle_form">
+    Job: <input type="text" name="job" />
+    <input type="submit" />
+</form>
