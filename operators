@@ -1,0 +1,56 @@
+<?php
+// Operators
+
+// Math Operators (Arithmetic)
+$num = 5;
+$bum = 2;
+$bum *= 25;
+echo $num + $bum;
+echo '<br />';
+
+echo $num - $bum;
+echo '<br />';
+
+echo $num * $bum;
+echo '<br />';
+
+echo $num / $bum;
+echo '<br />';
+
+echo $num % $bum;
+echo '<br />';
+
+// strin operators
+
+$first = "Leroy Jethro";
+$last = "Gibbs";
+$full = $first. " ". $last;
+echo $full;
+echo '<br />';
+
+//concat
+$n = "L";
+$n .= "e";
+$n .= "r";
+$n .= "o";
+$n .= "y";
+
+echo $n;
+echo '<br />';
+
+echo '<hr />';
+//comparison operators
+ 
+$x = 5;
+$y = 5;
+
+echo (string) $x == $y;// Boolean true of false
+
+
+/**
+ *  > Greater than
+ * < Less than
+ * == Equals
+ * === Equals + type  5 === "5" int vs string
+ * 
+ */
