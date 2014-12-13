@@ -1,0 +1,14 @@
+<?php
+
+//variables
+$age = 25;
+$firstName = "McGyver";
+$lastName = "McGyver";
+
+//concat
+echo $firstName. " ". $lastName;
+
+
+echo "<br />";
+//diff between single and double quotes
+echo "$firstName $lastName";
