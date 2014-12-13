@@ -1,0 +1,10 @@
+<?php
+// function arguments
+
+// generalize it..
+function helloName($person, $age = 28) {
+    echo "hello, $person. How are you today?<br ?>";
+    echo "Are you still $age years old?";
+}
+
+helloName("Jesse", 30);
