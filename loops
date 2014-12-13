@@ -1,0 +1,63 @@
+<?php
+//Loops
+
+$data = [
+    "height" =>[
+        "Tall",
+        "Small",
+        "Medium",
+        "Mini"
+        ],
+    "weight" => [
+        "150",
+        "200",
+        "250"
+    ]
+];
+
+//for loops
+/*for($i = 0; $i < count($data); $i++ ) {
+    echo $data[$i];
+    echo "<br />";
+    
+}
+*/
+
+/*foreach loop
+foreach ($data as $_key=>$_value){
+    echo $_key. ": ";
+    echo $_value;
+    echo '<br />'; 
+}
+ * 
+ */
+
+//foreach loop multi-dimensional loop
+foreach ($data as $_key => $_value){
+    echo $_key . ": ";
+    
+    foreach ($_value as $__key => $__value ){
+        echo $__value . "<br />";
+    }
+    echo '<br />';
+    
+}
+echo "<hr />";
+
+// while loop
+
+$i = 1;
+while ($i <= 50){
+    echo $i . " ";
+    $i++;
+}
+
+
+
+echo "<hr />";
+
+"<br />";
+for($i = 0; $i < 51; $i++){
+    echo $i. "<br />";
+};
+
