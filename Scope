@@ -1,0 +1,18 @@
+<?php
+// SCOPE
+
+// Global Scope
+$phone = "Galaxy";
+
+
+// Local Scope
+function box() {
+    $phone = "Nexus";
+    return $phone;
+}
+
+echo box();
+
+echo '<br />';
+
+echo $phone;
