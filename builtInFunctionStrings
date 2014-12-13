@@ -1,0 +1,23 @@
+<?php
+// BIF: strings
+
+/* strlen($string);
+ * substr($string, $start);
+ * str_replace(search name, replace with name; subject);
+ */
+
+
+$story = "The bunny stole the carrot.";
+
+echo strlen($story);
+echo '<br />';
+echo substr ($story, 10);
+echo '<br />';
+echo substr ($story, 10, 5);
+echo '<br />';
+echo str_replace("bunny", "dog", $story);
+echo '<bry />';
+echo str_ireplace("Bunny", "dog", $story); // case insensitive
+echo '<br />';
+$data = printf("My name is %s and I am %s", 'Neil', 'Happy');
+echo $data;
