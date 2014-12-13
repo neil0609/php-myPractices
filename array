@@ -1,0 +1,68 @@
+<?php
+// Arrays
+
+$pets = ["Dog", "Cat,", "Piglet" ];
+//$pets[] = "Dog";
+//$pets[] = "Cat";
+//$pets[] = "Piglet";
+$pets[] = "Fish";
+
+array_push($pets, "Horse");
+echo "<br />";
+
+$pets2 = ["mammal_1" => "Dog1", 
+          "mammal_2" => "Cat1",
+          "mammal_3" => "Piglet1"];
+
+echo "<br />";
+
+echo '<pre>';
+
+print_r($pets);
+
+echo "<br />";
+
+print_r($pets2);
+
+echo "<br />";
+
+echo $pets2["mammal_1"];
+
+// Multi Dimensional Array
+/**
+ * array_unshift // adds to bein (addends)
+ * array_shift // removess
+ * 
+ * array_pop // pops one off the end
+ * array_push // adds one to the end
+ */
+
+array_push($pets, [
+   "bird_1" => "Parrot",
+   "bird_2" => "Parakeet"
+]);
+
+echo "<pre>";
+print_r($pets);
+
+
+
+$pets3 = [
+    "mammal" => [
+        "Dog3",
+        "Cat3",
+        "Piglet3"
+    ],
+    "bird1" => [
+        "Parrot1",
+        "Turkey1",
+        "Flamingo1"
+    ]
+];
+
+echo "<br />";
+print_r($pets3);
+
+print_r($pets3["mammal"]);
+echo "<br />";
+print_r($pets3["bird1"]);
