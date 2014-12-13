@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  
+    <body>
+        
+        <?php include ('inc/header.php'); ?>
+        
+        <h1>Welcome Home!</h1>
+        <p>
+           Fake text and life goes on.Fake text and life goes on. 
+           Fake text and life goes on.Fake text and life goes on. 
+           Fake text and life goes on.Fake text and life goes on. 
+           Fake text and life goes on.Fake text and life goes on. 
+           Fake text and life goes on.Fake text and life goes on. 
+           Fake text and life goes on.Fake text and life goes on. 
+           Fake text and life goes on.Fake text and life goes on.
+        </p>
+        <p>
+           Fake text and life goes on.Fake text and life goes on.
+           Fake text and life goes on.Fake text and life goes on.
+           Fake text and life goes on.Fake text and life goes on.
+           Fake text and life goes on.Fake text and life goes on.
+           Fake text and life goes on.Fake text and life goes on.
+           Fake text and life goes on.Fake text and life goes on.
+           Fake text and life goes on.Fake text and life goes on. 
+        </p>
+
+        <?php include ('inc/footer.php'); ?>
+
+        
+    </body>
+    
+</html>
