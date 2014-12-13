@@ -7,9 +7,13 @@
 
 echo '<a href="?name=benny&job=none&favorite=dog&hobbies=driving%20sports%20cars">Benny!</a>';
 
+if (isset($_GET['user_id'])) {
+    echo $_GET['user_id'];
+}
 
 
-print_r($_GET);
+
+
 
 
 //GET PASSES PARAMETERS THROUGH THE URL
