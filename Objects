@@ -1,0 +1,37 @@
+<?php
+// Objects
+
+// Class = template for an object
+// object = class in use
+// function = method
+// properties
+
+// object... think of: single item
+// box
+// box, box, box. in classes there could be different objects inside the box.
+
+
+class Validate{
+    public function ___construct() 
+    {
+        echo "Created" . __CLASS__;
+    }
+    public function length($nums)
+    {
+        echo $nums;
+    }
+    public function test()
+    {
+        echo 'Test';
+    }
+    public function __destruct()
+    {
+        echo 'Object Gone'; //when obj is no longer needed in php.
+    }
+}
+
+// Instance = a copy of a class.
+
+$val = new Validate();
+$val->length(1);
+$val->test();
