@@ -1,0 +1,25 @@
+<?php
+
+// Objects
+
+//public can be used in any class
+//private only works in its own class
+//protected can be used in inherited classes
+
+Class Base
+{
+    public $_name = 'Benny';
+}
+
+Class Validate extends Base
+{
+    public function __construct()
+    {
+        echo "Created" . __CLASS__;
+        echo '<br />';
+        echo $this->_name;
+    }
+}
+
+$val = new Validate();
+echo $val->_name;
