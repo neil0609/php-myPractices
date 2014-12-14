@@ -1,0 +1,28 @@
+<?php
+// database PDO
+
+$db_type = 'mysql';
+$db_name = 'demo';
+$db_host = 'localhost';
+$db_user = 'root';
+$db_password = '';
+
+/* Connect to an ODBC database using driver invocation */
+$dsn = "db_type:dbname=$db_name;host=db_host";
+// $user = 'dbuser'; delete
+// $password = 'dbpass'; delete
+
+try {
+    $dbh = new PDO($dsn, $db_user, $db_password);
+    
+    $sql = "SELECT * FROM phone";
+    foreach ($dbh->query($sql) as $row) {
+        print_r($row); 
+    }
+    
+} catch (PDOException $e) {
+    echo 'Connection failed: ' . $e->getMessage();
+}
+
+
+
