@@ -1,0 +1,33 @@
+<?php
+// php: prepared
+
+require "connection.php";
+
+//$sql = "SELECT * FROM phone WHERE phone_id = ?";
+$sql = "SELECT * FROM phone WHERE phone_id = :phone_id AND name = :name";
+
+
+// $stmt = statement
+$stmt = $dbh->prepare($sql);
+//$stmt -> execute([3]);
+/*$stmt ->execute([
+      "phone_id" => 3,
+      "name" => "iphone"
+]);
+*/
+$stmt->bindValue("phone_id", 3);
+$stmt->bindValue("name", "iphone");
+$stmt->execute();
+
+
+
+
+$data = $stmt->fetchAll();
+
+echo '<pre>';
+print_r($data);
+
+
+
+
+
