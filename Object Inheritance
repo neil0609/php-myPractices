@@ -1,0 +1,23 @@
+<?php
+
+// Object Inheritance
+
+class Base
+{
+    public $name = "Benny";
+}
+
+class Validate extends Base
+{
+    public function ___construct() 
+    {
+        echo "Created" . __CLASS__;
+        echo "<br />";
+        echo $this->name;
+    }
+}
+
+
+// Instance = a copy of a class.
+
+$val = new Validate();
